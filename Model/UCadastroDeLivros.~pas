@@ -1,0 +1,31 @@
+unit UCadastroDeLivros;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TfrmCadastroLivro = class(TForm)
+    lblCadastro: TLabel;
+    lblTitulo: TLabel;
+    edtTitulo: TEdit;
+    lblAutor: TLabel;
+    edtAutor: TEdit;
+    lblGenero: TLabel;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadastroLivro: TfrmCadastroLivro;
+
+implementation
+
+{$R *.dfm}
+
+end.
